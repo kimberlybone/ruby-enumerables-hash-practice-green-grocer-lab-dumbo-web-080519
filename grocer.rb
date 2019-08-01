@@ -60,9 +60,8 @@ def checkout(cart, coupons)
     end 
     if total > 100
       total *= 0.9
-    else 
-      total
     end 
+    total
       
       binding.pry
   # new_hash = {}
