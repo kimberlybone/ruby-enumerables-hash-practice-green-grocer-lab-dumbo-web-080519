@@ -4,7 +4,7 @@
   cart.each do |element|
     element.each do |food, hash|
       if hash[food].nil?
-        hash[food] = 
+        hash[food] = hash 
     end 
   end 
   return new_cart
