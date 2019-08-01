@@ -57,29 +57,7 @@ def checkout(cart, coupons)
     total *= 0.9
   end 
   total
-  # new_hash = {}
-  # cart.each do |food, info|
-  #   new_hash[food] ||= info
-  #   new_hash[food][:count] ||= 0
-  #   new_hash[food][:count] += 1
-  #   coupons.each do |coupon|
-  #     if info[:count] > coupon[:num]
-  #       apply_coupons(cart, coupons)
-  #     end
-  #     if info[:clearance] == true
-  #       apply_clearance(cart)
-  #     end
-  #     if cart[:price].sum > 100
-  #       new_hash[food][:price] = cart[food][:price] - (info[:price] * 0.10).round(2)
-  #     end
-  #   end
-  # end 
-  # return new_hash
 end 
 
 
-#   #for each item in the cart, the new cart food will be the key, the new cart food count will start at 0 and equal the new cart food count or 0 and count by 1. the new cart food will equal the new cart food or the value.
-#   #if cart count == coupon count then cart price - coupon price is equal to new cart price
-#   #if cart item clearance == true then cart item price - 20% of cart item price is equal to new cart price
-#   #if total price of all items > 100 then new cart item price - 10% will equal the full discount price. 
-# end
+
