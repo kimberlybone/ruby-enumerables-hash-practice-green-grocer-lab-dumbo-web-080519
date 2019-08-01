@@ -1,6 +1,6 @@
  require 'pry'
  def consolidate_cart(cart)
-   new_cart = {}
+  new_cart = {}
   cart.each do |element|
     element.each do |food, hash|
       if new_cart[food].nil?
