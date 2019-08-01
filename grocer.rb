@@ -7,8 +7,9 @@
       if new_cart[food]
         new_cart[food][:count] += 1
       else 
-        new_cart[food][:count] += 1 
-        
+        new_cart[food] = hash
+        new_cart[food][:count] = 1 
+      end 
       # new_cart[food] ||= hash 
       # new_cart[food][:count] ||= 0 
       # new_cart[food][:count] += 1  
