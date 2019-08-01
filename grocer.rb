@@ -6,7 +6,7 @@
       if new_cart[food].nil?
         new_cart[food] = hash.merge({:count => 1})
       else 
-        
+        hash[name]
     end 
   end 
   return new_cart
