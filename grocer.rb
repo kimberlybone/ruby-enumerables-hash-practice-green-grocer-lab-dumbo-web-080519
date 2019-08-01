@@ -4,10 +4,10 @@
   count = 0
   cart.each do |element|
     element.each do |food, hash|
-      if new_cart
-      new_cart[food] ||= hash 
-      new_cart[food][:count] ||= 0 
-      new_cart[food][:count] += 1  
+      if new_cart[food]
+      # new_cart[food] ||= hash 
+      # new_cart[food][:count] ||= 0 
+      # new_cart[food][:count] += 1  
     end 
   end 
   return new_cart
